@@ -13,8 +13,8 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Venha conhecer um pouquinho da nossa loja"
+            paragraph="Assista ao nosso vídeo e descubra como trabalhamos com amor e dedicação para criar bordados únicos, fotografias especiais e sublimações que eternizam seus momentos mais preciosos."
             center
             mb="80px"
           />
@@ -23,12 +23,14 @@ export default function Video() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
-                <div className="relative aspect-77/40 items-center justify-center">
+                <div className="relative aspect-77/40 items-center justify-center bg-black flex">
                   <Image
-                    src="/images/video/image.png"
-                    alt="video image"
-                    className="object-cover"
-                    fill
+                    src="/images/logo/pixel_logo-semFundo.png"
+                    alt="Pixel - Bordados, Fotografias e Sublimação"
+                    width={400}
+                    height={200}
+                    className="object-contain"
+                    priority
                   />
                   <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                     <button
@@ -61,8 +63,7 @@ export default function Video() {
       <VideoModal
         isOpen={isOpen}
         onClose={() => setOpen(false)}
-        channel="youtube"
-        videoId="L61p2uyiMSo"
+        src="/videos/pixel_video.mp4"
       />
     </>
   );

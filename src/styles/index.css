@@ -133,3 +133,20 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+/* Gradiente radial personalizado para efeito de brilho */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Animação de zoom para o modal de vídeo */
+@keyframes modalZoom {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

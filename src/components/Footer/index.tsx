@@ -12,15 +12,15 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/pixel-logo.svg"
-                    alt="logo"
+                    src="/images/logo/pixel_logo-semFundo.png"
+                    alt="Pixel Logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/pixel-logo.svg"
-                    alt="logo"
+                    src="/images/logo/pixel_logo-semFundo.png"
+                    alt="Pixel Logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
